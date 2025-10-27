@@ -1,0 +1,78 @@
+body {
+  background: #f9f3e9;
+  font-family: 'Georgia', serif;
+  color: #5a3e36;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.envelope {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  margin: 80px auto;
+  background: #fff8f0;
+  border: 2px solid #d1b89f;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 40px;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: #7a5a47;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+button {
+  background: #e7c6a5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d9b28c;
+}
+
+.hidden {
+  display: none;
+}
+
+.heart {
+  position: absolute;
+  color: #e27d60;
+  font-size: 20px;
+  animation: float 4s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes float {
+  from { transform: translateY(0) scale(1); opacity: 1; }
+  to { transform: translateY(-200px) scale(1.5); opacity: 0; }
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 50px;
+  color: #8b6e5b;
+}
+
